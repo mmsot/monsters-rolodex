@@ -23,7 +23,7 @@ class App extends Component {
 
   onSearchChange = event => {
     this.setState({searchField: event.target.value});
-  }
+  };
 
   render() {
     const { monsters, searchField} = this.state;
