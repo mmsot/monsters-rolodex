@@ -7,6 +7,6 @@ export const SearchBox = ( { placeholder, onSearchChange }) => (
         className='search' 
         type='search' 
         placeholder={ placeholder} 
-        onSearchChange={onSearchChange} 
+        onChange={onSearchChange} 
     />
 )
